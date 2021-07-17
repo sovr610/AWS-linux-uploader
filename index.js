@@ -77,5 +77,5 @@ app.post("/uploadProfilePicture",function (req, res, next) {
 // is not taken by any other process
 app.listen(5000,function(error) {
     if(error) throw error
-        console.log("Server created Successfully on PORT 8080")
+        console.log("Server created Successfully on PORT 5000")
 })
