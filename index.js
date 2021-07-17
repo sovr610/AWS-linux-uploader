@@ -31,7 +31,7 @@ var upload = multer({
     fileFilter: function (req, file, cb){
     
         // Set the filetypes, it is optional
-        var filetypes = /jpeg|jpg|png|XZ|tar/;
+        /*var filetypes = /jpeg|jpg|png|XZ|tar/;
         var mimetype = filetypes.test(file.mimetype);
   
         var extname = filetypes.test(path.extname(
@@ -42,7 +42,7 @@ var upload = multer({
         }
       
         cb("Error: File upload only supports the "
-                + "following filetypes - " + filetypes);
+                + "following filetypes - " + filetypes);*/
       } 
   
 // mypic is the name of file attribute
